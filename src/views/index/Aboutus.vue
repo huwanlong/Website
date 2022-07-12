@@ -49,7 +49,7 @@
 <script>
 import { defineComponent, ref, onMounted, onUnmounted } from 'vue'
 import $ from 'jquery'
-import { onCheckMaterial } from '@/utils/index.js'
+import { onCheckMaterial } from '@/utils'
 import { getBlockInfoApi } from '@/api/block/index'
 
 export default defineComponent({

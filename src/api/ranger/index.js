@@ -7,6 +7,5 @@
  */
 import { serveRequest } from '../axios.js'
 
-// eslint-disable-next-line import/prefer-default-export
 export const getRangerInfoApi = (id) =>
   serveRequest.get(`/NFT-API/getRangerInfoApi/${id}?lang_id=14&id=${id}`)
